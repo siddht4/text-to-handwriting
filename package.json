@@ -14,8 +14,8 @@
     "cy": "cypress open",
     "dev": "serve ./",
     
-"test": "node server.js",
-    "start": "node server.js",
+"test": "serve ./",
+    "start": "serve ./",
     "build": " serve ./"
   },
   "repository": {
