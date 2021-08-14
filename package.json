@@ -16,7 +16,7 @@
     
 "test": "node server.js",
     "start": "node server.js",
-    "build": "npm install connect serve ./"
+    "build": " serve ./"
   },
   "repository": {
     "type": "git",
