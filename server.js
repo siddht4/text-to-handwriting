@@ -2,7 +2,7 @@
 // > npm install connect serve-static
 // > node server.js 8888
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 5000;
 if (process.argv.length > 2) port = parseInt(process.argv[2]);
 var connect = require('connect');
 var serveStatic = require('serve');
