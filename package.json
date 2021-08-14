@@ -13,8 +13,10 @@
     "format": "npm run prettier",
     "cy": "cypress open",
     "dev": "serve ./",
-    "start": "node js/app.js"
-
+    
+"test": "node server.js",
+    "start": "node server.js",
+    "build": "npm install connect serve"
   },
   "repository": {
     "type": "git",
